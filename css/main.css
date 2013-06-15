@@ -1,0 +1,30 @@
+body {
+	margin-top: 68px;
+}
+
+#myCarousel {
+	height: 300px;
+	width: 300px;
+	padding: 20px;
+	border: 1px solid grey;
+	border-radius: 3px;
+	moz-border-radius: 3px;
+}
+
+.well {
+	padding: 20px;
+}
+
+.contact-blurb {
+	margin-top: 20px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.footer {
+	position:absolute;
+	bottom:0;
+	left: 45%;
+}
