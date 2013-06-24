@@ -38,5 +38,11 @@ h1 {
 	clear: both;
 }
 
+.musicians {
+	p {
+		line-height: 15px;
+	}
+}
+
 .footer {
 }
