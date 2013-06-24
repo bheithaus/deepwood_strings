@@ -1,7 +1,7 @@
 $(function(){
 	console.log(document.title);
 	highlightCurrentTab();
-	
+	$(".musicians a").popover();
 	function highlightCurrentTab() {
 		var sections = document.title.split(" | "),
 			activeTab;
