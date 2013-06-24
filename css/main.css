@@ -40,7 +40,8 @@ h1 {
 
 .musicians {
 	p {
-		line-height: 15px;
+		font-size: 50%;
+		line-height: 6px;
 	}
 }
 
