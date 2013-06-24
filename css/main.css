@@ -2,6 +2,10 @@ body {
 	margin-top: 68px;
 }
 
+h1 {
+	font-size: 200%;
+}
+
 #myCarousel {
 	height: 300px;
 	width: 300px;
