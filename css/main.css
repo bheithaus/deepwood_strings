@@ -38,11 +38,9 @@ h1 {
 	clear: both;
 }
 
-.musicians {
-	p {
-		font-size: 50%;
-		line-height: 6px;
-	}
+.musicians p {
+	font-size: 75%;
+	line-height: 15px;
 }
 
 .footer {
