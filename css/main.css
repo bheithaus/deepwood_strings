@@ -15,6 +15,14 @@ h1 {
 	moz-border-radius: 3px;
 }
 
+.arrangements {
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 10px;
+	border: 1px black solid;
+	border-radius: 3px;
+	moz-border-radius: 3px;
+}
+
 .hero-unit {
 	padding-top: 20px;
 }
@@ -36,11 +44,6 @@ h1 {
 
 .clearfix {
 	clear: both;
-}
-
-.musicians p {
-	font-size: 75%;
-	line-height: 15px;
 }
 
 .footer {
