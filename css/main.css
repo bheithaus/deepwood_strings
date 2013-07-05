@@ -6,7 +6,7 @@ h1 {
 	font-size: 200%;
 }
 
-#myCarousel {
+#imageCarousel {
 	height: 300px;
 	width: 300px;
 	padding: 20px;
@@ -15,6 +15,20 @@ h1 {
 	moz-border-radius: 3px;
 }
 
+#reviewCarousel {
+	height: 400px;
+	width: 700px;
+	padding: 20px;
+}
+
+.carousel-control.right {
+  left: auto;
+  right: -40px;
+}
+.carousel-control.left {
+  right: auto;
+  left: -40px;
+}
 .arrangements {
 	padding: 10px 20px 10px 20px;
 	margin-bottom: 10px;
@@ -36,6 +50,9 @@ img.reverse {
   -ms-filter: "FlipH";
 }
 
+.navbar  ul.nav li a {
+  font-size:150%;
+}
 .hero-unit {
 	padding-top: 20px;
 }
