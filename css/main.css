@@ -15,10 +15,15 @@ h1 {
 	moz-border-radius: 3px;
 }
 
+.musicians > ul {
+  list-style: none;
+}
+.musicians > ul > li {
+  clear: both;
+}
+
 #reviewCarousel {
 	height: 400px;
-	width: 700px;
-	padding: 20px;
 }
 
 .carousel-control.right {
@@ -41,6 +46,10 @@ h1 {
   width: 50px;
 }
 
+.image {
+  margin: 20px;
+}
+
 img.reverse {
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
@@ -50,9 +59,6 @@ img.reverse {
   -ms-filter: "FlipH";
 }
 
-.navbar  ul.nav li a {
-  font-size:150%;
-}
 .hero-unit {
 	padding-top: 20px;
 }
@@ -61,9 +67,28 @@ img.reverse {
 	font-size: 200% !important;
 	margin-left: 10px !important;
 }
-.navbar-inner a:hover {
-	opacity: .8;
+
+.navbar-inner a {
+	font-size: 150%;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in; 
+  text-decoration:none;
+/*  color: white;*/
 }
+
+.navbar-inner > ul > li > a:hover, .navbar-inner > ul > li >  a:active, .navbar-inner > ul > li > a:focus {
+  -webkit-stroke-width: 5.3px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 20px #ADADAD;
+  -webkit-transition: width 0.3s; /*Safari & Chrome*/
+  transition: width 0.3s;
+  -moz-transition: width 0.3s; /* Firefox 4 */
+  -o-transition: width 0.3s; /* Opera */
+}
+
 .well {
 	padding: 20px;
 }
