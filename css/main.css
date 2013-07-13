@@ -69,6 +69,7 @@ img.reverse {
 }
 
 .navbar-inner a {
+  
 	font-size: 150%;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
@@ -79,14 +80,7 @@ img.reverse {
 }
 
 .navbar-inner > ul > li > a:hover, .navbar-inner > ul > li >  a:active, .navbar-inner > ul > li > a:focus {
-  -webkit-stroke-width: 5.3px;
-  -webkit-stroke-color: #FFFFFF;
-  -webkit-fill-color: #FFFFFF;
-  text-shadow: 1px 0px 20px #ADADAD;
-  -webkit-transition: width 0.3s; /*Safari & Chrome*/
-  transition: width 0.3s;
-  -moz-transition: width 0.3s; /* Firefox 4 */
-  -o-transition: width 0.3s; /* Opera */
+  text-shadow: rgb(170, 170, 170) 1px 1px 1px;
 }
 
 .well {
