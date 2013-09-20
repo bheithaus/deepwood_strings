@@ -7,6 +7,8 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/bootstrap-responsive.css">
+
         <link rel="stylesheet" href="/css/main.css">
 		
 	    <script src="http://code.jquery.com/jquery.js"></script>
@@ -15,45 +17,61 @@
 
     </head>
     <body>
-	    <div class="container">
-			<nav class="navbar navbar-fixed-top">
-				<div class="navbar-inner">
-					<a class="logo pull-left">
-						<img src="{{site.url}}/images/logo.png">
-					</a>
-					<a class="brand">The Deepwood Strings</a>
-					<a class="logo pull-right">
-						<img class="reverse" src="{{site.url}}/images/logo.png">
-					</a>
-					<ul class="nav">
-					  <li class="divider-vertical"></li>
-						
-					  <li class="" id="homeLink"><a href="/">Home</a></li>
-					  <li class="divider-vertical"></li>
-					  
-					  <li id="aboutLink"><a href="/about">About</a></li>
-					  <li class="divider-vertical"></li>
-					  
-					  <li id="musiciansLink"><a href="/musicians">Musicians</a></li>
-					  <li class="divider-vertical"></li>
-					  
-					  <li id="reviewsLink"><a href="/reviews">Reviews</a></li>
-					  <li class="divider-vertical"></li>
-					  
-					  <li id="contactLink"><a href="/contact">Contact</a></li>
-					  
-					</ul>
-				</div>
-			</nav>
-			<div class="clearfix">
-				{{ content }}
-			</div>
 
-			<footer class="footer center">
-				<p>&copy; Deepwood Strings | 2013</p>
-			</footer>
+				<nav class="navbar navbar-fixed-top">
+					<div class="navbar-inner">
+						<div class="container">
+				      <!-- .btn- navbar is used as the toggle for collapsed navbar content -->
+
+
+							<a class="logo pull-left">
+								<img src="{{site.url}}/images/logo.png">
+							</a>
+
+							<a class="brand">The Deepwood Strings</a>
+
+							<a class="logo pull-right">
+								<img class="reverse" src="{{site.url}}/images/logo.png">
+							</a>
+
+							<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+								<hr/><hr/><hr/>
+				      </a>
+
+							<div class="nav-collapse collapse">
+								<ul class="nav">
+								  <li class="divider-vertical"></li>
+									
+								  <li class="" id="homeLink"><a href="/">Home</a></li>
+								  <li class="divider-vertical"></li>
+								  
+								  <li id="aboutLink"><a href="/about">About</a></li>
+								  <li class="divider-vertical"></li>
+								  
+								  <li id="musiciansLink"><a href="/musicians">Musicians</a></li>
+								  <li class="divider-vertical"></li>
+								  
+								  <li id="reviewsLink"><a href="/reviews">Reviews</a></li>
+								  <li class="divider-vertical"></li>
+								  
+								  <li id="contactLink"><a href="/contact">Contact</a></li>
+								  
+								</ul>
+							</div>
+						</div>
+					</div>
+				</nav>
+
+			<div class="container">
+
+				<div class="clearfix">
+					{{ content }}
+				</div>
+
+				<footer class="footer center">
+					<p>&copy; Deepwood Strings | 2013</p>
+				</footer>
 
 	    </div> <!-- /container -->
-
     </body>
 </html>

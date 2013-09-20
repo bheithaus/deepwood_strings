@@ -1,3 +1,6 @@
 name: Deepwood Strings
 pygments: true
 url: http://www.deepwoodstrings.com
+stylus:
+  compress: true
+  path: ./css/stylus

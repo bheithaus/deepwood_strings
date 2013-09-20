@@ -1,5 +1,13 @@
-body {
-	margin-top: 68px;
+img {
+  width: 400px;
+}
+
+.home img {
+  width: 500px;
+}
+
+body > .container {
+  margin-top: 116px;
 }
 
 h1 {
@@ -15,11 +23,27 @@ h1 {
 	moz-border-radius: 3px;
 }
 
+hr { 
+  width: 120px;
+  height: 1px;
+  margin: 4px;
+  background: #aaa 
+}
+
+.navbar .btn-navbar {
+  margin: 13px 0.9em;
+  padding: 0;
+}
+
 .musicians > ul {
   list-style: none;
 }
 .musicians > ul > li {
   clear: both;
+}
+
+.musicians img {
+  width: 200px;
 }
 
 #reviewCarousel {
@@ -96,4 +120,71 @@ img.reverse {
 }
 
 .footer {
+}
+
+.reviews img {
+  width: 250px;
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+
+
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+
+
+
+
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  hr {
+    width: 60px;
+  }
+
+  a.brand {
+    font-size: 140% !important;
+  }
+
+  .logo img {
+    width: 40px !important;
+  }
+
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  hr {
+    width: 30px;
+  }
+
+  a.brand {
+    font-size: 130% !important;
+  }
+
+  .image {
+    float: none;
+  }
+
+  .home img {
+    width: 150px;
+  }
+
+  img {
+    width: 100px;
+  }
+
+
+
+
 }
