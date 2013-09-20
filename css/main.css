@@ -137,7 +137,9 @@ img.reverse {
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-
+body > .container {
+  margin-top: 0;
+}
 
 
 
@@ -147,16 +149,22 @@ img.reverse {
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+  body > .container {
+    margin-top: 0;
+  }
   hr {
     width: 60px;
   }
 
   a.brand {
-    font-size: 140% !important;
+    font-size: 130% !important;
   }
 
   .logo img {
     width: 40px !important;
+  }
+ .reviews .image {
+    float: none !important;
   }
 
 
@@ -164,12 +172,15 @@ img.reverse {
  
 /* Landscape phones and down */
 @media (max-width: 480px) {
+  body > .container {
+    margin-top: 0;
+  }
   hr {
     width: 30px;
   }
 
   a.brand {
-    font-size: 130% !important;
+    font-size: 120% !important;
   }
 
   .image {
@@ -178,6 +189,10 @@ img.reverse {
 
   .home img {
     width: 150px;
+  }
+
+  .reviews .image {
+    float: none;
   }
 
   img {
