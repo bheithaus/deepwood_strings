@@ -40,9 +40,13 @@ hr {
     padding: 0;
 }
 
-/* Toggle */
+/* Toggle menu */
 .btn.btn-navbar hr {
     width: 30px;
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+    margin: 4px;
 }
 
 .navbar .divider-vertical {
