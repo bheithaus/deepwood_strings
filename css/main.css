@@ -1,195 +1,198 @@
 img {
-  width: 400px;
+    width: 400px;
 }
 
 .home img {
-  width: 500px;
+    width: 500px;
 }
 
 body > .container {
-  margin-top: 116px;
+    margin-top: 116px;
 }
 
 h1 {
-	font-size: 200%;
+    font-size: 200%;
 }
 
 #imageCarousel {
-	height: 300px;
-	width: 300px;
-	padding: 20px;
-	border: 1px solid grey;
-	border-radius: 3px;
-	moz-border-radius: 3px;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    moz-border-radius: 3px;
 }
 
-hr { 
-  width: 120px;
-  height: 1px;
-  margin: 4px;
-  background: #aaa 
+hr {
+    width: 120px;
+    height: 1px;
+    margin: 4px;
+    background: #aaa;
 }
 
 .navbar .btn-navbar {
-  margin: 13px 0.9em;
-  padding: 0;
+    margin: 13px 0.9em;
+    padding: 0;
 }
 
 /* Toggle */
 .btn.btn-navbar hr {
-  width: 30px;
+    width: 30px;
 }
 
 .navbar .divider-vertical {
-  margin: 0;
+    margin: 0;
 }
 
 .musicians > ul {
-  list-style: none;
+    list-style: none;
 }
 .musicians > ul > li {
-  clear: both;
+    clear: both;
 }
 
 .musicians img {
-  width: 200px;
+    width: 200px;
 }
 
 #reviewCarousel {
-	height: 400px;
+    height: 400px;
 }
 
 .carousel-control.right {
-  left: auto;
-  right: -40px;
+    left: auto;
+    right: -40px;
 }
 
 .carousel-control.left {
-  right: auto;
-  left: -40px;
+    right: auto;
+    left: -40px;
 }
 
 .arrangements {
-	padding: 10px 20px 10px 20px;
-	margin-bottom: 10px;
-	border: 1px black solid;
-	border-radius: 3px;
-	moz-border-radius: 3px;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 10px;
+    border: 1px black solid;
+    border-radius: 3px;
+    moz-border-radius: 3px;
 }
 
 .logo img {
-  width: 50px;
+    width: 50px;
 }
 
 .image {
-  margin: 20px;
+    margin: 20px;
 }
 
 img.reverse {
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: "FlipH";
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: 'FlipH';
 }
 
 .hero-unit {
-	padding-top: 20px;
+    padding-top: 20px;
 }
 
 .brand {
-	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-	font-size: 150% !important;
-	margin-left: 10px !important;
+    font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman',
+        serif;
+    font-size: 150% !important;
+    margin-left: 10px !important;
 }
 
 .navbar-inner a {
-	font-size: 14px;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
-  -moz-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in; 
-  text-decoration:none;
-/*  color: white;*/
+    font-size: 14px;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    text-decoration: none;
+    /*  color: white;*/
 }
 
-.navbar-inner > ul > li > a:hover, .navbar-inner > ul > li >  a:active, .navbar-inner > ul > li > a:focus {
-  text-shadow: rgb(170, 170, 170) 1px 1px 1px;
+.navbar-inner > ul > li > a:hover,
+.navbar-inner > ul > li > a:active,
+.navbar-inner > ul > li > a:focus {
+    text-shadow: rgb(170, 170, 170) 1px 1px 1px;
 }
 
 .well {
-	padding: 20px;
+    padding: 20px;
 }
 
 .contact-blurb {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .clearfix {
-	clear: both;
+    clear: both;
 }
 
 .footer {
+    margin-top: 50px;
 }
 
 .reviews img {
-  width: 250px;
+    width: 250px;
 }
-
 
 /* Large desktop */
-@media (min-width: 1200px) { 
-  .navbar-inner a {
-    font-size: 16px;
-  }
+@media (min-width: 1200px) {
+    .navbar-inner a {
+        font-size: 16px;
+    }
 }
- 
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-  body > .container {
-    margin-top: 0;
-  }
+    body > .container {
+        margin-top: 0;
+    }
 }
- 
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-  body > .container {
-    margin-top: 0;
-  }
+    body > .container {
+        margin-top: 0;
+    }
 
-  .logo img {
-    width: 40px !important;
-  }
+    .logo img {
+        width: 40px !important;
+    }
 
- .reviews .image {
-    float: none !important;
-  }
+    .reviews .image {
+        float: none !important;
+    }
 }
- 
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  body > .container {
-    margin-top: 0;
-  }
+    body > .container {
+        margin-top: 0;
+    }
 
-  a.brand {
-    font-size: 100% !important;
-  }
+    a.brand {
+        font-size: 100% !important;
+    }
 
-  .image {
-    float: none;
-  }
+    .image {
+        float: none;
+    }
 
-  .home img {
-    width: 250px;
-  }
+    .home img {
+        width: 250px;
+    }
 
-  .reviews .image {
-    float: none;
-  }
+    .reviews .image {
+        float: none;
+    }
 
-  img {
-    width: 200px;
-  }
+    img {
+        width: 200px;
+    }
 }
