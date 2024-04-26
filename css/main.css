@@ -14,6 +14,11 @@ h1 {
     font-size: 200%;
 }
 
+h2 {
+    font-size: 21.25px;
+    margin-top: 30px;
+}
+
 #imageCarousel {
     height: 300px;
     width: 300px;
