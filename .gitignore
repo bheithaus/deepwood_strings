@@ -3,3 +3,5 @@ _site
 /Raw\ Pictures
 
 .DS_Store
+
+**.DS_Store

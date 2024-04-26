@@ -1,80 +1,89 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{% if page.title %}{{ page.title }} | {% endif %}Deepwood Strings</title>
-        <meta name="viewport" content="width=device-width">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>
+            {% if page.title %}{{ page.title }} | {% endif %}Deepwood Strings
+        </title>
+        <meta name="viewport" content="width=device-width" />
 
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/bootstrap-responsive.css">
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/css/bootstrap-responsive.css" />
 
-        <link rel="stylesheet" href="/css/main.css">
-		
-	    <script src="http://code.jquery.com/jquery.js"></script>
-	    <script src="/js/bootstrap.min.js"></script>
-		<script src="/js/interactive.js"></script>
+        <link rel="stylesheet" href="/css/main.css" />
 
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <!-- <script src="/js/bootstrap.min.js"></script> -->
+        <script src="/js/interactive.js"></script>
     </head>
     <body>
+        <nav class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <!-- .btn- navbar is used as the toggle for collapsed navbar content -->
 
-				<nav class="navbar navbar-fixed-top">
-					<div class="navbar-inner">
-						<div class="container">
-				      <!-- .btn- navbar is used as the toggle for collapsed navbar content -->
+                    <a class="logo pull-left">
+                        <img src="{{site.url}}/images/logo.png" />
+                    </a>
 
+                    <a class="brand">The Deepwood Strings</a>
 
-							<a class="logo pull-left">
-								<img src="{{site.url}}/images/logo.png">
-							</a>
+                    <a class="logo pull-right">
+                        <img
+                            class="reverse"
+                            src="{{site.url}}/images/logo.png"
+                        />
+                    </a>
 
-							<a class="brand">The Deepwood Strings</a>
+                    <a
+                        class="btn btn-navbar"
+                        data-toggle="collapse"
+                        data-target=".nav-collapse"
+                    >
+                        <hr />
+                        <hr />
+                        <hr />
+                    </a>
 
-							<a class="logo pull-right">
-								<img class="reverse" src="{{site.url}}/images/logo.png">
-							</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="divider-vertical"></li>
 
-							<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-								<hr/><hr/><hr/>
-				      </a>
+                            <li class="" id="homeLink"><a href="/">Home</a></li>
+                            <li class="divider-vertical"></li>
 
-							<div class="nav-collapse collapse">
-								<ul class="nav">
-								  <li class="divider-vertical"></li>
-									
-								  <li class="" id="homeLink"><a href="/">Home</a></li>
-								  <li class="divider-vertical"></li>
-								  
-								  <li id="aboutLink"><a href="/about">About</a></li>
-								  <li class="divider-vertical"></li>
-									
-									<li id="musicLink"><a href="/music">Music</a></li>
-								  <li class="divider-vertical"></li>						  
-								  
-								  <li id="musiciansLink"><a href="/musicians">Musicians</a></li>
-								  <li class="divider-vertical"></li>
-								  
-								  <li id="reviewsLink"><a href="/reviews">Reviews</a></li>
-								  <li class="divider-vertical"></li>
-								  
-								  <li id="contactLink"><a href="/contact">Contact</a></li>
-								  
-								</ul>
-							</div>
-						</div>
-					</div>
-				</nav>
+                            <!-- <li id="aboutLink"><a href="/about">About</a></li>
+                            <li class="divider-vertical"></li> -->
+                            <li id="musiciansLink">
+                                <a href="/musicians">Musicians</a>
+                            </li>
+                            <li class="divider-vertical"></li>
 
-			<div class="container">
+                            <li id="reviewsLink">
+                                <a href="/reviews">Reviews</a>
+                            </li>
+                            <li class="divider-vertical"></li>
 
-				<div class="clearfix">
-					{{ content }}
-				</div>
+                            <li id="musicLink"><a href="/music">Music</a></li>
+                            <li class="divider-vertical"></li>
 
-				<footer class="footer center">
-					<p>&copy; Deepwood Strings - 2021</p>
-				</footer>
+                            <li id="contactLink">
+                                <a href="/contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
-	    </div> <!-- /container -->
+        <div class="container">
+            <div class="clearfix">{{ content }}</div>
+
+            <footer class="footer center">
+                <p>&copy; Deepwood Strings - 2021</p>
+            </footer>
+        </div>
+        <!-- /container -->
     </body>
 </html>
